@@ -1,0 +1,57 @@
+[
+    {
+      "title": "Alone Together",
+      "albums": [
+        {
+          "name": "Conversations with Christian",
+          "artist": "Christian Mcbride",
+          "youtube": "https://www.youtube.com/watch?v=XJcxLV08t5U&list=PLfJndz0utgOPhKWzKRi_YeOTlec7znw7Z&index=8",
+          "sheets": [
+            {
+              "type": "Bassline",
+              "urls": [
+                "/transcriptions/alone_together/conversations_with_christian/bassline/1.jpg",
+                "/transcriptions/alone_together/conversations_with_christian/bassline/2.jpg",
+                "/transcriptions/alone_together/conversations_with_christian/bassline/3.jpg"
+              ]
+            },
+            {
+              "type": "Solo",
+              "urls": [
+                "/transcriptions/alone_together/conversations_with_christian/solo/1.jpg",
+                "/transcriptions/alone_together/conversations_with_christian/solo/2.jpg"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Someday My Prince Will Come",
+      "albums": [
+        {
+          "name": "Spring Is Here",
+          "artist": "Makoto Ozone",
+          "youtube": "https://www.youtube.com/watch?v=maPVEOtN69o",
+          "sheets": [
+            {
+              "type": "Bassline",
+              "urls": [
+                "/transcriptions/someday_my_prince_will_come/spring_is_here/bassline/1.jpg",
+                "/transcriptions/someday_my_prince_will_come/spring_is_here/bassline/2.jpg",
+                "/transcriptions/someday_my_prince_will_come/spring_is_here/bassline/3.jpg",
+                "/transcriptions/someday_my_prince_will_come/spring_is_here/bassline/4.jpg"
+              ]
+            },
+            {
+              "type": "Solo",
+              "urls": [
+                "/transcriptions/someday_my_prince_will_come/spring_is_here/solo/1.jpg",
+                "/transcriptions/someday_my_prince_will_come/spring_is_here/solo/2.jpg"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
