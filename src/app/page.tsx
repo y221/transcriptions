@@ -1,12 +1,30 @@
 'use client';
 
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useRef, useState, useEffect, MutableRefObject } from 'react';
+
+// データの型定義
+interface Sheet {
+  type: string;
+  urls: string[];
+}
+
+interface Album {
+  name: string;
+  artist: string;
+  youtube: string;
+  sheets: Sheet[];
+}
+
+interface Song {
+  title: string;
+  albums: Album[];
+}
 
 export default function Page() {
-  const [data, setData] = useState([]);
-  const modalRef = useRef(null);
-  const [currentSheet, setCurrentSheet] = useState(null);
-  const [currentPageIndex, setCurrentPageIndex] = useState(0);
+  const [data, setData] = useState<Song[]>([]);
+  const modalRef = useRef<HTMLDialogElement | null>(null);
+  const [currentSheet, setCurrentSheet] = useState<Sheet | null>(null);
+  const [currentPageIndex, setCurrentPageIndex] = useState<number>(0);
 
   useEffect(() => {
     // JSONファイルからデータを取得
@@ -16,10 +34,18 @@ export default function Page() {
       .catch((error) => console.error('Error fetching data:', error));
   }, []);
 
-  const openModal = (sheet: any) => {
+  const openModal = (sheet: Sheet) => {
     setCurrentSheet(sheet);
     setCurrentPageIndex(0);
-    modalRef.current.showModal();
+    if (modalRef.current) {
+      modalRef.current.showModal();
+    }
+  };
+
+  const closeModal = () => {
+    if (modalRef.current) {
+      modalRef.current.close();
+    }
   };
 
   // 曲名でソート
@@ -27,19 +53,16 @@ export default function Page() {
 
   const nextPage = () => {
     setCurrentPageIndex(
-      (prevIndex) => (prevIndex + 1) % currentSheet.urls.length
+      (prevIndex) => (prevIndex + 1) % (currentSheet?.urls.length || 1)
     );
   };
 
   const prevPage = () => {
     setCurrentPageIndex(
       (prevIndex) =>
-        (prevIndex - 1 + currentSheet.urls.length) % currentSheet.urls.length
+        (prevIndex - 1 + (currentSheet?.urls.length || 1)) %
+        (currentSheet?.urls.length || 1)
     );
-  };
-
-  const closeModal = () => {
-    modalRef.current.close();
   };
 
   return (
@@ -101,8 +124,15 @@ export default function Page() {
         ))}
       </div>
 
-      <dialog ref={modalRef} className="modal" onClick={closeModal}>
-        <div className="modal-box relative w-auto max-w-none" onClick={(e) => e.stopPropagation()}>
+      <dialog
+        ref={modalRef as MutableRefObject<HTMLDialogElement>}
+        className="modal"
+        onClick={closeModal}
+      >
+        <div
+          className="modal-box relative w-auto max-w-none"
+          onClick={(e) => e.stopPropagation()}
+        >
           {currentSheet && (
             <div>
               <div className="flex justify-between items-center mb-4">
