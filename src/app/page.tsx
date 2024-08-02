@@ -16,7 +16,7 @@ export default function Page() {
       .catch((error) => console.error('Error fetching data:', error));
   }, []);
 
-  const openModal = (sheet) => {
+  const openModal = (sheet: any) => {
     setCurrentSheet(sheet);
     setCurrentPageIndex(0);
     modalRef.current.showModal();
