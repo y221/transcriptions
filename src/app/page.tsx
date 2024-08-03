@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useRef, useState, useEffect, MutableRefObject } from 'react';
+import Image from 'next/image';
 
 // データの型定義
 interface Sheet {
@@ -110,7 +111,7 @@ export default function Page() {
                         href={album.youtube}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="btn border border-red-600 text-red-600 bg-white hover:bg-red-600 hover:text-white"
+                        className="btn border border-red-600 text-red-600 bg-white hover:bg-red-50"
                         style={{ borderColor: '#FF0000', color: '#FF0000' }}
                       >
                         YouTube
@@ -155,10 +156,15 @@ export default function Page() {
                 </button>
               </div>
               <div className="flex justify-center">
-                <img
+                <Image
                   src={currentSheet.urls[currentPageIndex]}
                   alt="Transcription"
-                  className="max-w-full max-h-[80vh] object-contain"
+                  width={800}  // 必要な幅に合わせて設定
+                  height={600} // 必要な高さに合わせて設定
+                  layout="responsive"
+                  quality={75} // 画像のクオリティを指定
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="flex-1 w-full h-auto object-cover"
                 />
               </div>
             </div>
