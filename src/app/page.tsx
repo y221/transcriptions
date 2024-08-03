@@ -47,6 +47,7 @@ export default function Page() {
     if (modalRef.current) {
       modalRef.current.close();
     }
+    setCurrentSheet(null); // モーダルを閉じたときに画像データをリセット
   };
 
   // 曲名でソート
@@ -159,9 +160,8 @@ export default function Page() {
                 <Image
                   src={currentSheet.urls[currentPageIndex]}
                   alt="Transcription"
-                  width={800}  // 必要な幅に合わせて設定
+                  width={800} // 必要な幅に合わせて設定
                   height={600} // 必要な高さに合わせて設定
-                  layout="responsive"
                   quality={75} // 画像のクオリティを指定
                   sizes="(max-width: 768px) 100vw, 50vw"
                   className="flex-1 w-full h-auto object-cover"
