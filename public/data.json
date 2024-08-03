@@ -10,16 +10,16 @@
             {
               "type": "Bassline",
               "urls": [
-                "/transcriptions/alone_together/conversations_with_christian/bassline/1.jpg",
-                "/transcriptions/alone_together/conversations_with_christian/bassline/2.jpg",
-                "/transcriptions/alone_together/conversations_with_christian/bassline/3.jpg"
+                "/transcriptions/alone_together/conversations_with_christian/bassline/1.webp",
+                "/transcriptions/alone_together/conversations_with_christian/bassline/2.webp",
+                "/transcriptions/alone_together/conversations_with_christian/bassline/3.webp"
               ]
             },
             {
               "type": "Solo",
               "urls": [
-                "/transcriptions/alone_together/conversations_with_christian/solo/1.jpg",
-                "/transcriptions/alone_together/conversations_with_christian/solo/2.jpg"
+                "/transcriptions/alone_together/conversations_with_christian/solo/1.webp",
+                "/transcriptions/alone_together/conversations_with_christian/solo/2.webp"
               ]
             }
           ]
@@ -37,17 +37,95 @@
             {
               "type": "Bassline",
               "urls": [
-                "/transcriptions/someday_my_prince_will_come/spring_is_here/bassline/1.jpg",
-                "/transcriptions/someday_my_prince_will_come/spring_is_here/bassline/2.jpg",
-                "/transcriptions/someday_my_prince_will_come/spring_is_here/bassline/3.jpg",
-                "/transcriptions/someday_my_prince_will_come/spring_is_here/bassline/4.jpg"
+                "/transcriptions/someday_my_prince_will_come/spring_is_here/bassline/1.webp",
+                "/transcriptions/someday_my_prince_will_come/spring_is_here/bassline/2.webp",
+                "/transcriptions/someday_my_prince_will_come/spring_is_here/bassline/3.webp",
+                "/transcriptions/someday_my_prince_will_come/spring_is_here/bassline/4.webp"
               ]
             },
             {
               "type": "Solo",
               "urls": [
-                "/transcriptions/someday_my_prince_will_come/spring_is_here/solo/1.jpg",
-                "/transcriptions/someday_my_prince_will_come/spring_is_here/solo/2.jpg"
+                "/transcriptions/someday_my_prince_will_come/spring_is_here/solo/1.webp",
+                "/transcriptions/someday_my_prince_will_come/spring_is_here/solo/2.webp"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Take The A Train",
+      "albums": [
+        {
+          "name": "Stardust",
+          "artist": "Hank Jones",
+          "youtube": "https://www.youtube.com/watch?v=YAU6gURxIBc",
+          "sheets": [
+            {
+              "type": "Bassline&solo",
+              "urls": [
+                "/transcriptions/take_the_a_train/stardust/bassline&solo/1.webp",
+                "/transcriptions/take_the_a_train/stardust/bassline&solo/2.webp",
+                "/transcriptions/take_the_a_train/stardust/bassline&solo/3.webp",
+                "/transcriptions/take_the_a_train/stardust/bassline&solo/4.webp"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "There Is No Greater Love",
+      "albums": [
+        {
+          "name": "Glove",
+          "artist": "Roland Hanna",
+          "youtube": "https://www.youtube.com/watch?v=5HnLlcdWD30",
+          "sheets": [
+            {
+              "type": "Bassline",
+              "urls": [
+                "/transcriptions/there_is_no_greater_love/roland_hanna/bassline/1.webp"
+              ]
+            },
+            {
+              "type": "Solo",
+              "urls": [
+                "/transcriptions/there_is_no_greater_love/roland_hanna/solo/1.webp",
+                "/transcriptions/there_is_no_greater_love/roland_hanna/solo/2.webp"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Legends",
+          "artist": "Benny Carter",
+          "youtube": "https://www.youtube.com/watch?v=TQPQyPfov2Y",
+          "sheets": [
+            {
+              "type": "Bassline",
+              "urls": [
+                "/transcriptions/there_is_no_greater_love/benny_carter/bassline/1.webp",
+                "/transcriptions/there_is_no_greater_love/benny_carter/bassline/2.webp"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Yardbird Suite",
+      "albums": [
+        {
+          "name": "Bird at 100",
+          "artist": "Vicent Herring, Bobby Watson, Gary Barts",
+          "youtube": "https://www.youtube.com/watch?v=WBPI7MaFD80",
+          "sheets": [
+            {
+              "type": "Solo",
+              "urls": [
+                "/transcriptions/yardbird_suite/bird_at_100/solo/1.webp"
               ]
             }
           ]
