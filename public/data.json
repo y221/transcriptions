@@ -129,6 +129,20 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Bop Redux",
+          "artist": "Hank Jones",
+          "youtube": "https://www.youtube.com/watch?v=my_SPET3U_E",
+          "sheets": [
+            {
+              "type": "Bassline",
+              "urls": [
+                "/transcriptions/yardbird_suite/bop_redux/bassline/1.webp",
+                "/transcriptions/yardbird_suite/bop_redux/bassline/2.webp"
+              ]
+            }
+          ]
         }
       ]
     }
