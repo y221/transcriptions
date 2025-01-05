@@ -8,18 +8,12 @@
           "youtube": "https://www.youtube.com/watch?v=XJcxLV08t5U&list=PLfJndz0utgOPhKWzKRi_YeOTlec7znw7Z&index=8",
           "sheets": [
             {
-              "type": "Bassline",
-              "urls": [
-                "/transcriptions/alone_together/conversations_with_christian/bassline/1.webp",
-                "/transcriptions/alone_together/conversations_with_christian/bassline/2.webp",
-                "/transcriptions/alone_together/conversations_with_christian/bassline/3.webp"
-              ]
-            },
-            {
-              "type": "Solo",
-              "urls": [
-                "/transcriptions/alone_together/conversations_with_christian/solo/1.webp",
-                "/transcriptions/alone_together/conversations_with_christian/solo/2.webp"
+              "type": "Bassline&solo",
+              "filePaths": [
+                "/transcriptions/alone_together/conversations_with_christian/bassline&solo/alone_together-1.svg",
+                "/transcriptions/alone_together/conversations_with_christian/bassline&solo/alone_together-2.svg",
+                "/transcriptions/alone_together/conversations_with_christian/bassline&solo/alone_together-3.svg",
+                "/transcriptions/alone_together/conversations_with_christian/bassline&solo/alone_together-4.svg"
               ]
             }
           ]
@@ -64,12 +58,8 @@
           "sheets": [
             {
               "type": "Bassline&solo",
-              "urls": [
-                "/transcriptions/take_the_a_train/stardust/bassline&solo/1.webp",
-                "/transcriptions/take_the_a_train/stardust/bassline&solo/2.webp",
-                "/transcriptions/take_the_a_train/stardust/bassline&solo/3.webp",
-                "/transcriptions/take_the_a_train/stardust/bassline&solo/4.webp"
-              ]
+              "title": "Take The A Train",
+              "mxlUrl": "/transcriptions/take_the_a_train/stardust/bassline&solo/take_the_a_train.mxl"
             }
           ]
         }

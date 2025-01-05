@@ -1,12 +1,12 @@
 'use client';
 
 import React, { useRef, useState, useEffect, MutableRefObject } from 'react';
-import Image from 'next/image';
+import SVGDisplay from "@/components/SVGDisplay";
 
 // データの型定義
 interface Sheet {
   type: string;
-  urls: string[];
+  filePaths: string[];
 }
 
 interface Album {
@@ -47,30 +47,17 @@ export default function Page() {
     if (modalRef.current) {
       modalRef.current.close();
     }
-    setCurrentSheet(null); // モーダルを閉じたときに画像データをリセット
+    setCurrentSheet(null);
   };
 
   // 曲名でソート
   const sortedSongs = data.sort((a, b) => a.title.localeCompare(b.title));
 
-  const nextPage = () => {
-    setCurrentPageIndex(
-      (prevIndex) => (prevIndex + 1) % (currentSheet?.urls.length || 1)
-    );
-  };
-
-  const prevPage = () => {
-    setCurrentPageIndex(
-      (prevIndex) =>
-        (prevIndex - 1 + (currentSheet?.urls.length || 1)) %
-        (currentSheet?.urls.length || 1)
-    );
-  };
-
   return (
     <div className="min-h-screen bg-gray-100 p-6">
       <h1 className="text-3xl font-bold mb-6 text-center">Transcriptions</h1>
-      <div className="space-y-4">
+      
+      <div className="space-y-4 max-w-4xl mx-auto">
         {sortedSongs.map((song, index) => (
           <div
             key={index}
@@ -132,40 +119,13 @@ export default function Page() {
         onClick={closeModal}
       >
         <div
-          className="modal-box relative w-auto max-w-none"
+          className="modal-box relative w-auto max-w-none overflow-hidden p-0"
           onClick={(e) => e.stopPropagation()}
         >
           {currentSheet && (
             <div>
-              <div className="flex justify-between items-center mb-4">
-                <button
-                  className="btn btn-accent"
-                  onClick={prevPage}
-                  disabled={currentSheet.urls.length <= 1}
-                >
-                  &larr;
-                </button>
-                <span>
-                  {currentPageIndex + 1} / {currentSheet.urls.length}
-                </span>
-                <button
-                  className="btn btn-accent"
-                  onClick={nextPage}
-                  disabled={currentSheet.urls.length <= 1}
-                >
-                  &rarr;
-                </button>
-              </div>
               <div className="flex justify-center">
-                <Image
-                  src={currentSheet.urls[currentPageIndex]}
-                  alt="Transcription"
-                  width={800} // 必要な幅に合わせて設定
-                  height={600} // 必要な高さに合わせて設定
-                  quality={75} // 画像のクオリティを指定
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                  className="flex-1 w-full h-auto object-cover"
-                />
+                <SVGDisplay filePaths={currentSheet.filePaths} defaultBpm={120}/>
               </div>
             </div>
           )}
