@@ -21,34 +21,6 @@
       ]
     },
     {
-      "title": "Someday My Prince Will Come",
-      "albums": [
-        {
-          "name": "Spring Is Here",
-          "artist": "Makoto Ozone",
-          "youtube": "https://www.youtube.com/watch?v=maPVEOtN69o",
-          "sheets": [
-            {
-              "type": "Bassline",
-              "urls": [
-                "/transcriptions/someday_my_prince_will_come/spring_is_here/bassline/1.webp",
-                "/transcriptions/someday_my_prince_will_come/spring_is_here/bassline/2.webp",
-                "/transcriptions/someday_my_prince_will_come/spring_is_here/bassline/3.webp",
-                "/transcriptions/someday_my_prince_will_come/spring_is_here/bassline/4.webp"
-              ]
-            },
-            {
-              "type": "Solo",
-              "urls": [
-                "/transcriptions/someday_my_prince_will_come/spring_is_here/solo/1.webp",
-                "/transcriptions/someday_my_prince_will_come/spring_is_here/solo/2.webp"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "title": "Take The A Train",
       "albums": [
         {
@@ -58,78 +30,11 @@
           "sheets": [
             {
               "type": "Bassline&solo",
-              "title": "Take The A Train",
-              "mxlUrl": "/transcriptions/take_the_a_train/stardust/bassline&solo/take_the_a_train.mxl"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "There Is No Greater Love",
-      "albums": [
-        {
-          "name": "Glove",
-          "artist": "Roland Hanna",
-          "youtube": "https://www.youtube.com/watch?v=5HnLlcdWD30",
-          "sheets": [
-            {
-              "type": "Bassline",
-              "urls": [
-                "/transcriptions/there_is_no_greater_love/roland_hanna/bassline/1.webp"
-              ]
-            },
-            {
-              "type": "Solo",
-              "urls": [
-                "/transcriptions/there_is_no_greater_love/roland_hanna/solo/1.webp",
-                "/transcriptions/there_is_no_greater_love/roland_hanna/solo/2.webp"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Legends",
-          "artist": "Benny Carter",
-          "youtube": "https://www.youtube.com/watch?v=TQPQyPfov2Y",
-          "sheets": [
-            {
-              "type": "Bassline",
-              "urls": [
-                "/transcriptions/there_is_no_greater_love/benny_carter/bassline/1.webp",
-                "/transcriptions/there_is_no_greater_love/benny_carter/bassline/2.webp"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Yardbird Suite",
-      "albums": [
-        {
-          "name": "Bird at 100",
-          "artist": "Vicent Herring, Bobby Watson, Gary Barts",
-          "youtube": "https://www.youtube.com/watch?v=WBPI7MaFD80",
-          "sheets": [
-            {
-              "type": "Solo",
-              "urls": [
-                "/transcriptions/yardbird_suite/bird_at_100/solo/1.webp"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Bop Redux",
-          "artist": "Hank Jones",
-          "youtube": "https://www.youtube.com/watch?v=my_SPET3U_E",
-          "sheets": [
-            {
-              "type": "Bassline",
-              "urls": [
-                "/transcriptions/yardbird_suite/bop_redux/bassline/1.webp",
-                "/transcriptions/yardbird_suite/bop_redux/bassline/2.webp"
+              "filePaths": [
+                "/transcriptions/take_the_a_train/stardust/bassline&solo/take_the_a_train-1.svg",
+                "/transcriptions/take_the_a_train/stardust/bassline&solo/take_the_a_train-2.svg",
+                "/transcriptions/take_the_a_train/stardust/bassline&solo/take_the_a_train-3.svg",
+                "/transcriptions/take_the_a_train/stardust/bassline&solo/take_the_a_train-4.svg"
               ]
             }
           ]
