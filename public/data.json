@@ -62,5 +62,24 @@
           ]
         }
       ]
+    },
+    {
+      "title": "The King Is Gone",
+      "albums": [
+        {
+          "name": "The Sun Don't lie",
+          "artist": "Marcus Miller",
+          "youtube": "https://www.youtube.com/watch?v=IMM8okGfhWo",
+          "sheets": [
+            {
+              "type": "Basssolo",
+              "filePaths": [
+                "/transcriptions/the_king_is_gone/the_sun_don't_lie/basssolo/the_king_is_gone-1.svg",
+                "/transcriptions/the_king_is_gone/the_sun_don't_lie/basssolo/the_king_is_gone-2.svg"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
