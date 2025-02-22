@@ -26,7 +26,7 @@
         {
           "name": "She Was Too Good Too Me",
           "artist": "Chet Baker",
-          "youtube": "https://www.youtube.com/watch?v=WFWDlGAV5f0",
+          "youtube": "https://www.youtube.com/watch?v=zTVlrOk9a8M",
           "sheets": [
             {
               "type": "Bassline",
@@ -36,6 +36,24 @@
                 "/transcriptions/autumn_leaves/she_was_too_good_to_me/bassline/autumn_leaves-3.svg",
                 "/transcriptions/autumn_leaves/she_was_too_good_to_me/bassline/autumn_leaves-4.svg",
                 "/transcriptions/autumn_leaves/she_was_too_good_to_me/bassline/autumn_leaves-5.svg"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Doxy",
+      "albums": [
+        {
+          "name": "SUPER STANDARD SUPER TRIO",
+          "artist": "Kenny Barron",
+          "youtube": "https://www.youtube.com/watch?v=g05lxQ15RQ4",
+          "sheets": [
+            {
+              "type": "Basssolo",
+              "filePaths": [
+                "/transcriptions/doxy/super_standard/basssolo/doxy.svg"
               ]
             }
           ]
