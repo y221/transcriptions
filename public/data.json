@@ -57,6 +57,20 @@
               ]
             }
           ]
+        },
+        {
+          "name": "BAGS GROOVE",
+          "artist": "Miles Davis",
+          "youtube": "https://www.youtube.com/watch?v=XpueyrkcMyQ",
+          "sheets": [
+            {
+              "type": "Bassline",
+              "filePaths": [
+                "/transcriptions/doxy/bags_groove/bassline/doxy-1.svg",
+                "/transcriptions/doxy/bags_groove/bassline/doxy-2.svg"
+              ]
+            }
+          ]
         }
       ]
     },
