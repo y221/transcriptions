@@ -75,6 +75,25 @@
       ]
     },
     {
+      "title": "September In The Rain",
+      "albums": [
+        {
+          "name": "Youtube",
+          "artist": "Philip Norris",
+          "youtube": "https://www.youtube.com/watch?v=EwMMnoQqkGw",
+          "sheets": [
+            {
+              "type": "bassline&solo",
+              "filePaths": [
+                "/transcriptions/september_in_the_rain/youtube/bassline&solo/september_in_the_rain-1.svg",
+                "/transcriptions/september_in_the_rain/youtube/bassline&solo/september_in_the_rain-2.svg"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "Take The A Train",
       "albums": [
         {
