@@ -71,6 +71,19 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Eastman",
+          "artist": "Chuck Israels",
+          "youtube": "https://www.youtube.com/watch?v=HUrFNtbyKI4",
+          "sheets": [
+            {
+              "type": "Bassline",
+              "filePaths": [
+                "/transcriptions/doxy/eastman/bassline/doxy-1.svg"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -78,15 +91,15 @@
       "title": "September In The Rain",
       "albums": [
         {
-          "name": "Youtube",
+          "name": "Tyreek McDole",
           "artist": "Philip Norris",
           "youtube": "https://www.youtube.com/watch?v=EwMMnoQqkGw",
           "sheets": [
             {
               "type": "bassline&solo",
               "filePaths": [
-                "/transcriptions/september_in_the_rain/youtube/bassline&solo/september_in_the_rain-1.svg",
-                "/transcriptions/september_in_the_rain/youtube/bassline&solo/september_in_the_rain-2.svg"
+                "/transcriptions/september_in_the_rain/tyreek_mcdole/bassline&solo/september_in_the_rain-1.svg",
+                "/transcriptions/september_in_the_rain/tyreek_mcdole/bassline&solo/september_in_the_rain-2.svg"
               ]
             }
           ]
